@@ -22,12 +22,11 @@
         android:text="Kimchi Garden"
         android:textSize="25dp" />
 
-    <RatingBar
+    <RatingBar style="?android:attr/ratingBarStyleSmall"
         android:id="@+id/results_activity_rating"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/results_activity_restaurant_name"
-        android:style="?android:attr/ratingBarStyleSmall" />
+        android:layout_below="@+id/results_activity_restaurant_name" />
 
     <TextView
         android:id="@+id/results_activity_category"
