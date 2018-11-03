@@ -20,8 +20,8 @@ public class APIRequestFilterModel implements Serializable {
         this.open_now = true;
     }
 
-    public ApiResponseBusinesses Call() {
+    public APIResponseRestaurants Call() {
         // TODO
-        return new ApiResponseBusinesses();
+        return new APIResponseRestaurants();
     }
 }
