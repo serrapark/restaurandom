@@ -12,6 +12,16 @@ public class APIRequestFilterModel implements Serializable {
     @SerializedName("categories") public String categories;
     @SerializedName("price") public String price;
 
-    @SerializedName("limit") protected int limit;
-    @SerializedName("open_now") protected boolean open_now;
+    @SerializedName("limit") private int limit;
+    @SerializedName("open_now") private boolean open_now;
+
+    public APIRequestFilterModel() {
+        this.limit = 50;
+        this.open_now = true;
+    }
+
+    public ApiResponseBusinesses Call() {
+        // TODO
+        return new ApiResponseBusinesses();
+    }
 }
