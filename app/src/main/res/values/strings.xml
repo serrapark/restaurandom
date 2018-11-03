@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Restaurandom</string>
+    <string name="reroll">I hate this restaurant. Give me another one.</string>
 </resources>
