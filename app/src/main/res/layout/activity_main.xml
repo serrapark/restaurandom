@@ -6,13 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button style="@style/AppTheme.Button"
+        android:id="@+id/get_restaurant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="what the fuck"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="getRestaurant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/show_filters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="what the fuck"
+        />
 
 </android.support.constraint.ConstraintLayout>

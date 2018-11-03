@@ -6,9 +6,9 @@ public class RestaurantModel {
     public List<Business> businesses;
 
     public class Business {
-        public string name;
+        public String name;
         public float rating;
-        public string address;
-        public string category;
+        public String address;
+        public String category;
     }
 }
