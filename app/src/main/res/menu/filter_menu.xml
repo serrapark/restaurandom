@@ -4,26 +4,32 @@
     >
 
     <item
-        android:id="@+id/action_photo"
+        android:id="@+id/set_price"
         android:icon="@drawable/filter_button"
-        android:title="a"
+        android:title="Price"
         app:showAsAction="always|withText" />
 
     <item
-        android:id="@+id/action_video"
+        android:id="@+id/set_distance"
         android:icon="@drawable/filter_button"
-        android:title="a"
+        android:title="Distance"
         app:showAsAction="always|withText" />
 
     <item
-        android:id="@+id/action_text"
+        android:id="@+id/set_vegetarian"
         android:icon="@drawable/filter_button"
-        android:title="a"
+        android:title="Vegetarian"
         app:showAsAction="always|withText" />
 
     <item
-        android:id="@+id/action_link"
+        android:id="@+id/set_vegan"
         android:icon="@drawable/filter_button"
-        android:title="a"
+        android:title="Vegan"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/set_togo"
+        android:icon="@drawable/filter_button"
+        android:title="Wut"
         app:showAsAction="always|withText" />
 </menu>
